@@ -4,7 +4,7 @@ import estilos from './SecaoProdutos.module.css';
 
 export default function SecaoProdutos(){
     return(
-        <section className={estilos.secaoProdutos}>
+        <section className={estilos.secaoProdutos} id="produtos">
             <div className="container">
                 <div className={estilos.container_titulo}>
                     <h2>Nossos produtos</h2>

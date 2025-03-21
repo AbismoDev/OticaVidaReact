@@ -4,7 +4,7 @@ import estilos from './SecaoContatos.module.css';
 
 export default function SecaoContatos(){
     return(
-        <section className={estilos.secaoContatos}>
+        <section className={estilos.secaoContatos} id="contato">
             <div className="container">
 
                 <div className={estilos.container_texto}>

@@ -4,7 +4,7 @@ import estilos from './SecaoSobre.module.css';
 
 export default function SecaoSobre(){
     return(
-        <section className={estilos.secaoSobre}>
+        <section className={estilos.secaoSobre} id="sobre">
             <div className="container">
 
                 <div className={estilos.container_texto}>
